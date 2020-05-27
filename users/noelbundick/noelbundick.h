@@ -16,23 +16,38 @@ enum custom_layers {
   _QWERTY,      // QWERTY base
   _LEFT,        // left-hand activated layer (usually via F)
   _RIGHT,       // right-hand activated layer (usually via J)
+  _FN,          // function keys
   _LOWER,
   _RAISE,
   _KB,          // control the keyboard itself (RGB, reset, etc)
 };
 
-#define RAISE       MO(_RAISE)
-#define LOWER       MO(_LOWER)
 
 /**********
   Single keys (ex: Ctrl+Win+Left to switch virtual desktops)
 **********/
 
+#define RAISE       MO(_RAISE)
+#define LOWER       MO(_LOWER)
+#define KB          MO(_KB)
+
 #define F_LEFT      LT(_LEFT, KC_F)
 #define J_RIGHT     LT(_RIGHT, KC_J)
 
+// Function / Play
+#define FLAY        LT(_FN, KC_MPLY)
+
+// Ctrl / Mute
+#define CUTE        LCTL_T(KC_MUTE)
+
+// Volume up/down / Alt
+#define VDLALT     LALT_T(KC_VOLD)
+#define VURALT     RALT_T(KC_VOLU)
+
+// Win10 left/right virtual desktops
 #define DESK_LEFT   LCTL(LGUI(KC_LEFT))
-#define DESK_RIGHT  LCTL(LGUI(KC_RGHT))
+#define DESK_RGHT  LCTL(LGUI(KC_RGHT))
+
 
 /**********
   Key groups (ex: numbers for left hand)
@@ -43,6 +58,8 @@ enum custom_layers {
 #define _________________4________________                         _______, _______, _______, _______
 #define _____________________5_____________________                _______, _______, _______, _______, _______
 #define __________________________6_________________________       _______, _______, _______, _______, _______, _______
+#define __________________________12________________________       _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
+#define __________________________14________________________       _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
 
 // Nav groups. Note these are in Vim order
 // per-character (arrow keys)
