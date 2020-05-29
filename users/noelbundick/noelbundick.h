@@ -16,6 +16,7 @@ enum custom_layers {
   _QWERTY,      // QWERTY base
   _LEFT,        // left-hand activated layer (usually via F)
   _RIGHT,       // right-hand activated layer (usually via J)
+  _SPACE,       // space layer
   _FN,          // function keys
   _LOWER,
   _RAISE,
@@ -31,6 +32,7 @@ enum custom_layers {
 #define LOWER       MO(_LOWER)
 #define KB          MO(_KB)
 
+#define SPACE       LT(_SPACE, KC_SPC)
 #define F_LEFT      LT(_LEFT, KC_F)
 #define J_RIGHT     LT(_RIGHT, KC_J)
 
