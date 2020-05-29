@@ -66,6 +66,8 @@ enum custom_layers {
 // Nav groups. Note these are in Vim order
 // per-character (arrow keys)
 #define ______________ARROWS______________                KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+// per-character (reversed up/down for left-hand)
+#define _____________BIZARROWS____________                KC_LEFT, KC_UP,   KC_DOWN, KC_RGHT   
 // per-line/page (nav cluster)
 #define _______________NAV________________                KC_HOME, KC_PGDN, KC_PGUP, KC_END
 
