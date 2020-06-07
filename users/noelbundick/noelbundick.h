@@ -43,12 +43,17 @@ enum custom_layers {
 #define CUTE        LCTL_T(KC_MUTE)
 
 // Volume up/down / Alt
-#define VDLALT     LALT_T(KC_VOLD)
-#define VURALT     RALT_T(KC_VOLU)
+#define VDLALT      LALT_T(KC_VOLD)
+#define VURALT      RALT_T(KC_VOLU)
 
 // Win10 left/right virtual desktops
 #define DESK_LEFT   LCTL(LGUI(KC_LEFT))
-#define DESK_RGHT  LCTL(LGUI(KC_RGHT))
+#define DESK_RGHT   LCTL(LGUI(KC_RGHT))
+
+// Windows hotkeys
+#define LOCK        LGUI(KC_L)
+#define CALTDEL     LCTL(LALT(KC_DEL))
+#define TASKMGR     LCTL(LSFT(KC_ESC))
 
 
 /**********
