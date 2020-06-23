@@ -1,0 +1,5 @@
+LED_BACK_ENABLE = yes
+LED_ANIMATIONS = yes
+OLED_ENABLE = yes
+
+include $(strip $(KEYBOARD_LOCAL_FEATURES_MK))
