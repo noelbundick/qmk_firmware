@@ -67,6 +67,7 @@ enum custom_layers {
 #define __________________________6_________________________       _______, _______, _______, _______, _______, _______
 #define __________________________12________________________       _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
 #define __________________________14________________________       _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
+#define __________________________15________________________       _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
 
 // Nav groups. Note these are in Vim order
 // per-character (arrow keys)
@@ -80,6 +81,7 @@ enum custom_layers {
 #define ______________SPECIAL_LEFT_________________       KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
 #define ________________NUM_LEFT___________________       KC_1,    KC_2,    KC_3,    KC_4,    KC_5
 #define ________________ALPHA_L1___________________       KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
+#define ______________ALPHA_L2_STD_________________       KC_A,    KC_S,    KC_D,    KC_F,  KC_G
 #define ________________ALPHA_L2___________________       KC_A,    KC_S,    KC_D,    F_LEFT,  KC_G
 #define ________________ALPHA_L3___________________       KC_Z,    KC_X,    KC_C,    KC_V,    KC_B
 
@@ -88,6 +90,7 @@ enum custom_layers {
 #define _______________NUM_RIGHT___________________       KC_6,    KC_7,    KC_8,    KC_9,    KC_0
 #define ________________ALPHA_R1___________________       KC_Y,    KC_U,    KC_I,    KC_O,    KC_P
 #define ________________ALPHA_R2___________________       KC_H,    J_RIGHT, KC_K,    KC_L,    KC_SCLN
+#define ______________ALPHA_R2_STD_________________       KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN
 #define ________________ALPHA_R3___________________       KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLASH
 
 // Full-range function blocks. Note the longer length (6 keys)
