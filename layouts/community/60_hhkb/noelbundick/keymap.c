@@ -9,7 +9,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_QWERTY] = WRAP(LAYOUT_60_hhkb,
   KC_GESC, ________________NUM_LEFT___________________, _______________NUM_RIGHT___________________, KC_MINS, KC_EQL,  KC_BSPC, LT(_KB, KC_BSPC),
   KC_TAB,  ________________ALPHA_L1___________________, ________________ALPHA_R1___________________, KC_LBRC, KC_RBRC, KC_BSLS,
-  _______, ________________ALPHA_L2___________________, ________________ALPHA_R2___________________, KC_QUOT, KC_ENT,
+  KC_LCTL, ________________ALPHA_L2___________________, ________________ALPHA_R2___________________, KC_QUOT, KC_ENT,
   KC_LSFT, ________________ALPHA_L3___________________, ________________ALPHA_R3___________________, KC_RSFT, KC_RGUI,
   CUTE, VDLALT, SPACE, VURALT, FLAY
 ),
