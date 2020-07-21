@@ -10,8 +10,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_GESC, ________________NUM_LEFT___________________, _______________NUM_RIGHT___________________, KC_MINS, KC_EQL,  KC_BSLS, LT(_KB, KC_GRV),
   KC_TAB,  ________________ALPHA_L1___________________, ________________ALPHA_R1___________________, KC_LBRC, KC_RBRC, KC_BSPC,
   KC_LCTL, ________________ALPHA_L2___________________, ________________ALPHA_R2___________________, KC_QUOT, KC_ENT,
-  KC_LSFT, ________________ALPHA_L3___________________, ________________ALPHA_R3___________________, KC_RSFT, FLAY,
-  LGUI_T(KC_MUTE), VDLALT, SPACE, VURALT, KC_RGUI
+  KC_LSFT, ________________ALPHA_L3___________________, ________________ALPHA_R3___________________, KC_RSFT, MO(_FN),
+  LGUI_T(KC_MUTE), VDLALT, SPACE, VURALT, LGUI_T(KC_MPLY)
 ),
 
 [_LEFT] = WRAP(LAYOUT_60_hhkb,
