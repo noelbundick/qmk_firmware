@@ -20,7 +20,7 @@ enum custom_layers {
   _FN,          // function keys
   _LOWER,
   _RAISE,
-  _KB,          // control the keyboard itself (RGB, reset, etc)
+  _KB = 15,          // control the keyboard itself (RGB, reset, etc)
 };
 
 

@@ -8,3 +8,7 @@ ifeq ($(strip $(KEYBOARD)), dmqdesign/spin)
   MOUSEKEY_ENABLE = yes       # Mouse keys
   POINTING_DEVICE_ENABLE = yes
 endif
+
+ifeq ($(PROTOCOL), VUSB)
+  CONSOLE_ENABLE = no
+endif
